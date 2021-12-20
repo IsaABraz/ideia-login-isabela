@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Montserrat';
+  padding: .5rem;
+  background: #e9e6ec;
+}
+
+.container .content {
+  width: 90%;
+}
+
+.container .content figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .content .formulario {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .content .formulario > div input {
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.container .content .formulario .input-senha {
+  position: relative;
+}
+
+.container .content .formulario .input-senha .fa-eye-slash {
+  position: absolute;
+  right: 15px;
+  top: 30px;
+  cursor: pointer;
+  color: #b8b8b8;
+}
+
+.container .content .formulario .btn-login {
+  background: #98A309;
+  margin: 1rem 0;
+  border-radius: 8px;
+  padding: .8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.container .content .formulario .btn-login:hover {
+  background: #aeb90b;
+}
+
+.container .content .formulario .btn-login span {
+  font-weight: 600;
+}
